@@ -1,0 +1,87 @@
+.user {
+    min-height: 100vh;
+    background: #f1f1f1;
+    position: relative;
+}
+
+.user>div:nth-child(1) {
+    line-height: .88rem;
+    text-align: center;
+    font-size: .32rem;
+    color: #000;
+    font-weight: 400;
+    background-color: #fff;
+}
+
+.user>.edit-from {
+    border-radius: .16rem;
+    margin: .8rem .2rem 0;
+    background-color: #fff;
+    width: calc(100% - .4rem);
+    display: flex;
+    flex-flow: column nowrap;
+    font-size: 0.32rem;
+}
+
+.user>.edit-from>.header {
+    margin-top: .2rem;
+    margin-left: 50%;
+    transform: translate(-50%, 0);
+    display: inline-block;
+    width: 1.3rem;
+    height: 2rem;
+}
+.user>.edit-from>.header>img {
+    display: block;
+    border-radius: 50%;
+    width: 1.3rem;
+    height: 1.3rem;
+}
+
+.user>.edit-from>span {
+    width: 1rem;
+}
+.user>.edit-button{
+    position: absolute;
+    bottom: 2.2rem;
+    width: calc(100% - .4rem);
+    margin: 0 .2rem;
+}
+.user>.edit-button>button {
+    width: calc(50%);
+    background-color: #1d9afa;
+}
+
+
+
+.my-order {
+    margin-top: .8rem;
+}
+
+.my-item {
+    width: calc(100% - .4rem);
+    background-color: #fff;
+    margin-left: 0.2rem;
+    margin-right: 0.2rem;
+    padding: 0.2rem;
+}
+.my-order>.header {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: .2rem;
+}
+
+.my-order>.item {
+    display: flex;
+    justify-content: space-around;
+}
+
+input ,textarea {
+    font-size: .26rem;
+    height: .7rem;
+    background: #fff;
+    border: 1px solid #e0e0e0;
+    border-radius: .1rem;
+    text-indent: 0.26rem;
+    width: 4.5rem;
+}

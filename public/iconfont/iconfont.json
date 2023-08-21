@@ -1,0 +1,16 @@
+{
+  "id": "3295285",
+  "name": "eshop",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "10360972",
+      "name": "讨论",
+      "font_class": "taolun",
+      "unicode": "e61e",
+      "unicode_decimal": 58910
+    }
+  ]
+}

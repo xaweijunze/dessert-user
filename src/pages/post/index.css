@@ -1,0 +1,209 @@
+.com-body {
+  height: 100vh;
+  background-color: #f1f1f1;
+}
+.com-body > button {
+  background-color: #0093dc;
+  font-size: 1rem;
+  font-weight: 400;
+  position: fixed;
+  bottom: 1.5rem;
+  right: 0.6rem;
+  z-index: 10;
+}
+.post-header {
+  line-height: 0.88rem;
+  text-align: center;
+  font-size: 0.36rem;
+  color: #000;
+  font-weight: 400;
+  background-color: #fff;
+  background: #fff;
+}
+
+.post-header .active {
+  border-bottom: 2px solid #0093dc;
+}
+.post-item {
+  margin: 0.2rem;
+  margin-top: 0.208rem;
+  border-radius: 0.16rem;
+  padding-bottom: 0.1rem;
+  background: #fff;
+  border-top: 1px solid #ebebeb;
+  border-bottom: 1px solid #ebebeb;
+}
+.post-item div {
+  margin: 0.1rem;
+}
+.post-item .title {
+  align-items: center;
+  font-size: 0.34rem;
+  font-weight: 700;
+}
+.post-item .poster span {
+  color: #6c6c6c;
+}
+.post-item .body {
+  text-indent: 2em;
+  font-size: 0.32rem;
+  margin-bottom: .1rem;
+}
+.poster {
+  font-size: 0.3rem;
+}
+.post-item .time {
+  display: flex;
+  justify-content: space-around;
+}
+.post-item .goods-details {
+  display: -webkit-flex;
+  display: flex;
+  -webkit-justify-content: space-between;
+  justify-content: space-between;
+  height: 2rem;
+  margin-bottom: 0.12rem;
+  padding: 0.33rem 0.45rem;
+  background: #fcfcfc;
+  color: #1a1a1a;
+}
+
+.post-item .goods-der {
+  width: 4rem;
+  margin: 0 0.12rem;
+}
+
+.post-item .price {
+  text-align: right;
+}
+.post-item .price .refund-btn {
+  display: block;
+  margin-top: 0.8rem;
+  font-size: 0.3rem;
+  line-height: 1.5;
+  border: 1px solid #9c9c9c;
+  color: #9c9c9c;
+  border-radius: 3px;
+}
+.post-item .goods-num {
+  color: #8b8b8b;
+  font-size: 0.3rem;
+  vertical-align: middle;
+}
+.post-item .order-time {
+  display: -webkit-flex;
+  display: flex;
+  -webkit-justify-content: space-between;
+  justify-content: space-between;
+  height: 0.5rem;
+  padding: 0 0.5rem;
+  font-size: 0.22rem;
+}
+.post-item .make-box {
+  text-align: right;
+  padding: 0.1rem 0.4rem 0.3rem;
+}
+.post-item .make-box a {
+  display: inline-block;
+  vertical-align: middle;
+  margin-left: 0.117rem;
+  width: 1.6rem;
+  line-height: 0.6rem;
+  border: 1px solid #9c9c9c;
+  color: #9c9c9c;
+  text-align: center;
+  border-radius: 3px;
+  font-size: 0.3rem;
+}
+.post-item .make-box .red {
+  color: #9f2e33;
+  border: 1px solid #9f2e33;
+}
+.comment-container {
+  padding: 0 0.2rem 0.2rem;
+  margin-bottom: 0.2rem;
+}
+
+.comment-title {
+  font-size: 0.3rem;
+  margin: 0.05rem 0;
+}
+
+.comment {
+  overflow: hidden;
+}
+
+.comment-cards {
+  width: 24.04rem;
+  display: flex;
+  flex-flow: row nowrap;
+}
+
+.comment-cards > .comment-card {
+  position: relative;
+  border-top: 0.15rem solid #f1f1f1;
+  white-space: normal;
+  width: 5.99rem;
+  height: 3rem;
+  background: #fff;
+  border-radius: 0.16rem;
+  display: inline-block;
+  margin-right: 0.2rem;
+  padding: 0.4rem 0.2rem;
+  vertical-align: top;
+}
+
+.comment-card > div:nth-child(1) {
+  height: 0.5rem;
+  font-size: 0.3rem;
+  margin-bottom: 0.18rem;
+  display: flex;
+  align-items: center;
+}
+
+.comment-card > div:nth-child(1) > :nth-child(1) {
+  font-size: 0.5rem;
+  margin-right: 0.1rem;
+}
+.header {
+  width: 0.6rem;
+  height: 0.6rem;
+  border-radius: 50%;
+}
+.reviewTime {
+  position: absolute;
+  color: #666;
+  bottom: 0.3rem;
+  right: 0.2rem;
+}
+.comment-card > div:nth-child(2) {
+  margin-top: 0.45rem;
+  margin-left: 0.4rem;
+  font-size: 0.3rem;
+}
+
+.comment-card > div:nth-child(2) > * {
+  margin-right: 0.08rem;
+}
+
+.my-item {
+  margin-top: 1rem;
+  margin-left: 0.4rem;
+}
+.my-item > button {
+  margin-left: 4rem;
+  margin-top: 0.6rem;
+}
+input {
+  font-size: 0.26rem;
+  height: 0.7rem;
+  background: #fff;
+  border: 1px solid #e0e0e0;
+  border-radius: 0.1rem;
+  text-indent: 0.26rem;
+  width: 4.5rem;
+}
+.comment-header {
+  display: flex;
+  justify-content: space-around;
+}

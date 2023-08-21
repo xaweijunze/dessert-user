@@ -1,0 +1,174 @@
+
+.com-body{
+    height: 100vh;
+    background-color: #f1f1f1;
+}
+.order-header {
+    display: -webkit-flex;
+    display: flex;
+    -webkit-justify-content:space-around;
+    justify-content: space-around;
+    -webkit-align-items:center;
+    align-items: center;
+    position: fixed;
+    z-index: 90;
+    width: 100%;
+    font-size: .34rem;
+    height: 1rem;
+    left: 0;
+    background: #fff;
+}
+.order-header div {
+    display: block;
+    height: 1rem;
+    line-height: 1rem;
+    padding: 0 .5rem;
+    color: #1a1a1a;
+    font-size: .3rem;
+    border-bottom: 2px solid #fff;
+}
+.order-header .active {
+    border-bottom: 2px solid #0093dc;
+}
+.order-list{
+    padding-top: 1.1rem;
+
+}
+.order-item {
+    margin-top: 0.208rem;
+    border-radius: .16rem;
+    padding-bottom: .1rem;
+    background: #fff;
+    border-top:1px solid #ebebeb;
+    border-bottom:1px solid #ebebeb;
+}
+.order-item .item-header {
+    display: -webkit-flex;
+    display: flex;
+    -webkit-justify-content:space-between;
+    justify-content: space-between;
+    -webkit-align-items:center;
+    align-items: center;
+    height: 1rem;
+    padding: 0 .4rem;
+}
+.order-item .all-money span {
+    vertical-align: middle;
+}
+.order-item .order-color {
+    color: #ff4b4b;
+    vertical-align: middle;
+}
+.order-item .delete {
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 0.833rem;
+    width: .5rem;
+    height: .4rem;
+    font-size: .2rem;
+}
+.order-item .goods-details {
+    display: -webkit-flex;
+    display: flex;
+    -webkit-justify-content:space-between;
+    justify-content: space-between;
+    height: 2rem;
+    margin-bottom: 0.12rem;
+    padding: 0.33rem .45rem;
+    background: #fcfcfc;
+    color:#1a1a1a;
+}
+.order-item img {
+    width  : 1.48rem;
+}
+.order-item .goods-der {
+    width: 4rem;
+    margin: 0 0.12rem;
+}
+.order-item .goods-name {
+    height: 1rem;
+    font-size: .24rem;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+}
+.order-item .goods-tips {
+    margin-top: 0.08rem;
+    color: #acacac;
+    font-size: 0.3rem;
+}
+.order-item .price {
+    text-align: right;
+}
+.order-item .price .refund-btn {
+    display: block;
+    margin-top:0.8rem;
+    font-size: 0.3rem;
+    line-height: 1.5;
+    border: 1px solid #9c9c9c;
+    color: #9c9c9c;
+    border-radius: 3px;
+}
+.order-item .goods-num {
+    color: #8b8b8b;
+    font-size: 0.3rem;
+    vertical-align: middle;
+}
+.order-item .order-time {
+    display: -webkit-flex;
+    display: flex;
+    -webkit-justify-content:space-between;
+    justify-content: space-between;
+    height: 1rem;
+    padding: 0 .5rem;
+    padding-top: .1rem;
+    font-size: 0.25rem;
+}
+.order-item .order-time >button{
+    line-height: .4rem;
+    height: .6rem;
+    border-radius: .1rem;
+}
+.order-item .make-box {
+    text-align: right;
+    padding: .1rem .4rem .3rem;
+}
+.order-item .make-box a {
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 0.117rem;
+    width: 1.6rem;
+    line-height: .6rem;
+    border:1px solid #9c9c9c;
+    color: #9c9c9c;
+    text-align: center;
+    border-radius: 3px;
+    font-size: .3rem;
+}
+.order-item .make-box .red {
+    color: #9f2e33;
+    border:1px solid #9f2e33;
+}
+input {
+    font-size: .26rem;
+    height: .7rem;
+    background: #fff;
+    border: 1px solid #e0e0e0;
+    border-radius: .1rem;
+    text-indent: 0.26rem;
+    width: 4.5rem;
+}
+.my-item {
+    width: calc(100% - .4rem);
+    background-color: #fff;
+    margin-left: 0.2rem;
+    margin-right: 0.2rem;
+    padding: 0.2rem;
+}
+.pick{
+    font-size:.22rem;
+    --icon-size:.22rem;
+    color: #757575;
+}

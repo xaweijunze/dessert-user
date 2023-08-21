@@ -1,0 +1,117 @@
+
+.com-body{
+    height: 100vh;
+    background-color: #f1f1f1;
+}
+.post-header {
+    line-height     : .88rem;
+    text-align      : center;
+    font-size       : .32rem;
+    color           : #000;
+    font-weight     : 400;
+    background-color: #fff;
+    background: #fff;
+}
+
+.post-header .active {
+    border-bottom: 2px solid #0093dc;
+}
+.post-item {
+    margin: 0.2rem;
+    margin-top: 0.208rem;
+    border-radius: .16rem;
+    padding-bottom: .1rem;
+    background: #fff;
+    border-top:1px solid #ebebeb;
+    border-bottom:1px solid #ebebeb;
+}
+.post-item div{
+    margin: 0.1rem;
+    
+}
+.post-item .title {
+    align-items: center;
+    font-size: .28rem;
+    font-weight: 700;
+}
+.post-item .poster span {
+    color:#6c6c6c;
+
+}
+.post-item .body {
+    text-indent:2em;
+}
+.post-item .time{
+    padding-left:4.2rem;
+}
+.post-item .goods-details {
+    display: -webkit-flex;
+    display: flex;
+    -webkit-justify-content:space-between;
+    justify-content: space-between;
+    height: 2rem;
+    margin-bottom: 0.12rem;
+    padding: 0.33rem .45rem;
+    background: #fcfcfc;
+    color:#1a1a1a;
+}
+
+.post-item .goods-der {
+    width: 4rem;
+    margin: 0 0.12rem;
+}
+
+.post-item .price {
+    text-align: right;
+}
+.post-item .price .refund-btn {
+    display: block;
+    margin-top:0.8rem;
+    font-size: 0.3rem;
+    line-height: 1.5;
+    border: 1px solid #9c9c9c;
+    color: #9c9c9c;
+    border-radius: 3px;
+}
+.post-item .goods-num {
+    color: #8b8b8b;
+    font-size: 0.3rem;
+    vertical-align: middle;
+}
+.post-item .order-time {
+    display: -webkit-flex;
+    display: flex;
+    -webkit-justify-content:space-between;
+    justify-content: space-between;
+    height: .5rem;
+    padding: 0 .5rem;
+    font-size: 0.22rem;
+}
+.post-item .make-box {
+    text-align: right;
+    padding: .1rem .4rem .3rem;
+}
+.post-item .make-box a {
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 0.117rem;
+    width: 1.6rem;
+    line-height: .6rem;
+    border:1px solid #9c9c9c;
+    color: #9c9c9c;
+    text-align: center;
+    border-radius: 3px;
+    font-size: .3rem;
+}
+.post-item .make-box .red {
+    color: #9f2e33;
+    border:1px solid #9f2e33;
+}
+.title{
+    display: flex;
+    justify-content: space-around;
+}
+.title>span{
+    font-weight: 400;
+    color: #0093dc;
+}

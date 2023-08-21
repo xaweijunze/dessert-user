@@ -1,0 +1,79 @@
+.user {
+    min-height: 100vh;
+    background: #f1f1f1;
+    position  : relative;
+
+}
+
+.user>div:nth-child(1) {
+    line-height     : .88rem;
+    text-align      : center;
+    font-size       : .32rem;
+    color           : #000;
+    font-weight     : 400;
+    background-color: #fff;
+}
+
+.user>div:nth-child(2) {
+    border-radius   : .16rem;
+    margin          : .8rem .2rem 0;
+    background-color: #fff;
+    width           : calc(100% - .4rem);
+    height          : 2.5rem;
+    display         : flex;
+    flex-flow       : column nowrap;
+    font-size: 0.32rem;
+}
+
+.user>div:nth-child(2)>:nth-child(1) {
+    margin-top: .3rem;
+    font-size : 1.15rem;
+    text-align: center;
+}
+
+.user>div:nth-child(2)>:nth-child(2) {
+    font-size : .28rem;
+    text-align: center;
+}
+
+.user>button {
+    position        : absolute;
+    bottom          : 2.2rem;
+    width           : calc(100% - .4rem);
+    margin          : 0 .2rem;
+    background-color: #ff4d4f;
+}
+
+.user>div:nth-child(2)>div .iconfont {
+    color: #0096d6;
+}
+
+.my-order{
+    margin-top: .6rem;
+}
+.my-item{
+    background-color: #fff;
+    margin-left:  0.2rem;
+    margin-right:  0.2rem;
+    padding: 0.2rem;
+    border-radius   : .16rem;
+    border-bottom: .1px solid #c4c4c4;
+}
+.my-order>.header{
+    display        : flex;
+    justify-content: space-between;
+    margin-bottom: .2rem;
+}
+.my-order>.item{
+    display        : flex;
+    justify-content: space-around;
+}
+img {
+    margin-left: 50%;
+    margin-bottom: .3rem;
+    transform: translate(-50%,0);
+    display: block;
+    border-radius: 50%;
+    width: 1.3rem;
+    height: 1.3rem;
+}
